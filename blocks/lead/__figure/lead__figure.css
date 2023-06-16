@@ -1,20 +1,21 @@
 .lead__figure {
-    margin: 0;
+  max-width: 984px;
+    margin: 0 auto;
     padding-top: 64px;
   }
   
   @media (min-width: 320px) and (max-width: 1024px) {
     .lead__figure {
-      max-width: 100%;
-      margin:  auto;
+      max-width: 928px;
+      margin: 0 auto;
       padding-top: 56px;
     }
   }
   
   @media (max-width: 319px) {
     .lead__figure {
-      max-width: 319px;
-      margin: 0;
+      max-width: 100%;
+      margin: auto;
       padding-top: 40px;
     }
   }
