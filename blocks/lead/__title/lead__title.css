@@ -4,13 +4,13 @@
     padding: 0;
     text-align: center;
     line-height: 1.04;
-    font-size: 6rem;
+    font-size: 96px;
     font-style: normal;
     font-weight: 900;
     transition: .3s ease-in-out;
   }
   
-  @media screen and (max-width: 719px) {
+  @media screen and (max-width: 767px) {
     .lead__title {
       font-size: 2.5rem;
       line-height: 1.1;

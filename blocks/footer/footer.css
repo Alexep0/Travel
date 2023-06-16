@@ -1,7 +1,7 @@
 .footer {
     max-width: calc(100% - 96px);
     margin: 0 auto;
-    padding: 92px 0 28px;
+    padding: 92px 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -15,7 +15,7 @@
     }
   }
   
-  @media (min-width: 426px) and (max-width: 768px) {
+  @media (min-width: 426px) and (max-width: 767px) {
     .footer {
       max-width: calc(100% - 48px);
       flex-direction: column;
